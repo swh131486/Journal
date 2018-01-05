@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.journal.widget.TextEditor xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:cursorVisible="true"
+    android:lineSpacingExtra="2dp"
+    android:textColor="#444"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:textCursorDrawable="@drawable/text_cursor"
+    android:textSize="14sp" />

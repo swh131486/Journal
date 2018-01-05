@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbars" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/mOperatePanel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/toolbar_bg"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/mNewNoteBtn"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/new_note"
+                android:gravity="center_horizontal"
+                android:text="@string/mHomeNewNoteLabel"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/mSearchBtn"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/search"
+                android:gravity="center_horizontal"
+                android:text="@string/mHomeSearchLabel"
+                android:textColor="@color/gray" />
+
+
+            <TextView
+                android:id="@+id/mSettingBtn"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/setting"
+                android:gravity="center_horizontal"
+                android:text="@string/mHomeSettingLabel"
+                android:textColor="@color/gray" />
+
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/mNoteList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/mOperatePanel"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dip"
+            android:scrollbars="none"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/mOperatePanel"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</LinearLayout>

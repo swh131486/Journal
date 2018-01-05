@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">土豆日记</string>
+    <string name="title_setting">设置</string>
+    <string name="title_about">关于我们</string>
+    <string name="title_login">登录</string>
+    <string name="title_serach">搜索</string>
+    <string name="title_hint">请输入标题</string>
+    <string name="body_hint">输入正文</string>
+    <string name="mLoginAccountHintLabel">请输入账号</string>
+    <string name="mLoginAccountLabel">账号</string>
+    <string name="mLoginPasswordHintLabel">请输入密码</string>
+    <string name="mLoginPasswordLabel">密码</string>
+    <string name="mLoginSubmitLabel">登录</string>
+    <string name="mHomeNewNoteLabel">新建</string>
+    <string name="mHomeSearchLabel">搜索</string>
+    <string name="mHomeSettingLabel">设置</string>
+    <string name="mSettingAboutUsLabel">关于我们</string>
+    <string name="mSettingQuitLabel">退出</string>
+    <string name="mSettingClearLabel">清空缓存</string>
+    <string name="mSearchHintLabel">请输入关键字</string>
+</resources>

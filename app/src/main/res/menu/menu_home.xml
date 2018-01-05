@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_switch"
+        android:orderInCategory="100"
+        android:title="about"
+        android:icon="@drawable/switch0"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="toolbar_bg">#d3c7ad</color>
+    <color name="activity_bg">#fff</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#fffcfcfc</color>
+    <color name="home_bg">#e8e8ff</color>
+    <color name="title_transparent_black">#22000000</color>
+    <color name="new_note_panel_text_color">#8a8a8a</color>
+    <color name="light_black">#141414</color>
+    <color name="line_and_outline_grey">#d9d9d9</color>
+</resources>
